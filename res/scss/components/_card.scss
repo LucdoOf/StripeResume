@@ -1,0 +1,55 @@
+#card {
+  padding: 30px;
+  padding-top: 70px;
+  border-radius: 20px;
+  box-shadow: rgba(26, 26, 67, 0.05) 1px 1px 5px 0px, rgba(50, 50, 93, 0.5) 39px 62.5px 125px -25px, rgba(0, 0, 0, 0.6) 23.4px 37.5px 75px -37.5px;
+  font-family: 'Wellfleet', cursive;
+  background-image: url("https://images.ctfassets.net/fzn2n1nzq965/5UPyWsxAvbXamxGLBfuTj3/426c7b5224259ded7bc95b21073f4c02/lemon.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: $yellow;
+  color: white;
+  position: relative;
+  width: calc(320px * 1.5);
+  height: calc(200px * 1.5);
+
+  @media (max-device-width: 1200px) {
+    width: calc(320px * 1);
+    height: calc(200px * 1);
+    padding: 20px;
+    padding-top: 40px;
+    background-image: unset;
+    #card-content {
+      flex-direction: row !important;
+      align-items: center;
+    }
+  }
+
+  &:before {
+    content: "";
+    background-image: url('https://images.ctfassets.net/fzn2n1nzq965/7vBnEVhVBEUFuEZt1RNvzF/b6804b61f197a9be2b18a80cf6747be7/zestful.svg');
+    position: absolute;
+    top: 23px;
+    left: 29px;
+    width: 76px;
+    height: 30px;
+  }
+  #card-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    img {
+      margin: 20px;
+      width: 64px;
+      border-radius: 10px;
+    }
+    #card-text {
+      margin-top: 20px;
+      text-transform: uppercase;
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

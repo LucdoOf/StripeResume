@@ -1,0 +1,15 @@
+a {
+  color: $purple;
+  transition: 200ms all ease;
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+}
+
+strong {
+  color: $purple;
+  &.colored {
+    color: white
+  }
+}

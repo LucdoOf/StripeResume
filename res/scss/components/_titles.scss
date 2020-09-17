@@ -1,0 +1,41 @@
+.underlined-title {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+  width: fit-content;
+  z-index: 1;
+  font-size: 40px;
+  &:after {
+    display: block;
+    content: "";
+    width: 120%;
+    position: absolute;
+    top: calc(100% - 12px);
+    left: -10%;
+    height: 8px;
+    background-color: #00d4ff;
+    opacity: 0.7;
+    z-index: -1;
+  }
+}
+
+.title {
+  color: $black;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+  &.colored {
+    color: white;
+  }
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  color: $purple;
+  margin-bottom: 10px;
+  &.colored {
+    color: $blue;
+  }
+}

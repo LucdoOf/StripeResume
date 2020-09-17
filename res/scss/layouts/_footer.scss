@@ -1,0 +1,14 @@
+footer {
+  @extend .animated-background;
+  #footer-content {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    span, a, h4 {
+      color: white;
+      text-align: center;
+    }
+  }
+}

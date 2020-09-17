@@ -1,20 +1,17 @@
-$purple: rgb(99, 91, 255);
-$darkpurple: #0f395e;
-$black: rgb(10, 37, 64);
-$orange: #f5665c;
-$red: #ff1f3f;
-$blue: #00d4ff;
-$gray: #f6f9fc;
-$darkgray: #d2d2d2;
-$yellow: rgb(255, 192, 37);
-
-@font-face {
-  font-family: "typewriter";
-  src: url("/res/fonts/atwriter.ttf") format("truetype"),
-  url("/res/fonts/atwriter.ttf") format("truetype");
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Wellfleet&display=swap');
+// Abstracts
+@import "abstracts/variables";
+@import "abstracts/typography";
+@import "abstracts/animations";
+// Base
+@import "base/reset";
+// Layouts
+@import "layouts/header";
+@import "layouts/footer";
+// Components
+@import "components/tables";
+@import "components/titles";
+@import "components/editor";
+@import "components/card";
 
 body {
   overflow-x: hidden;
@@ -28,74 +25,6 @@ body {
   #content {
     padding: 50px 0;
     padding-bottom: 0;
-    #header {
-      margin-bottom: 50px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      #internship-title {
-        font-family: 'Dancing Script', cursive;
-        color: white;
-        font-size: 40px;
-        margin-top: -20px;
-      }
-    }
-    #card {
-      padding: 30px;
-      padding-top: 70px;
-      border-radius: 20px;
-      box-shadow: rgba(26, 26, 67, 0.05) 1px 1px 5px 0px, rgba(50, 50, 93, 0.5) 39px 62.5px 125px -25px, rgba(0, 0, 0, 0.6) 23.4px 37.5px 75px -37.5px;
-      font-family: 'Wellfleet', cursive;
-      background-image: url("https://images.ctfassets.net/fzn2n1nzq965/5UPyWsxAvbXamxGLBfuTj3/426c7b5224259ded7bc95b21073f4c02/lemon.svg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-color: $yellow;
-      color: white;
-      position: relative;
-      width: calc(320px * 1.5);
-      height: calc(200px * 1.5);
-
-      @media (max-device-width: 1200px) {
-        width: calc(320px * 1);
-        height: calc(200px * 1);
-        padding: 20px;
-        padding-top: 40px;
-        background-image: unset;
-        #card-content {
-          flex-direction: row !important;
-          align-items: center;
-        }
-      }
-
-      &:before {
-        content: "";
-        background-image: url('https://images.ctfassets.net/fzn2n1nzq965/7vBnEVhVBEUFuEZt1RNvzF/b6804b61f197a9be2b18a80cf6747be7/zestful.svg');
-        position: absolute;
-        top: 23px;
-        left: 29px;
-        width: 76px;
-        height: 30px;
-      }
-      #card-content {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        img {
-          margin: 20px;
-          width: 64px;
-          border-radius: 10px;
-        }
-        #card-text {
-          margin-top: 20px;
-          text-transform: uppercase;
-          p {
-            margin: 0;
-          }
-        }
-      }
-    }
 
     #profile {
       margin-top: 70px;
@@ -245,128 +174,6 @@ body {
         }
       }
     }
-    footer {
-      @extend .animated-background;
-      #footer-content {
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        span, a, h4 {
-          color: white;
-          text-align: center;
-        }
-      }
-    }
   }
 }
 
-a {
-  color: $purple;
-  transition: 200ms all ease;
-  &:hover {
-    color: $blue;
-    text-decoration: none;
-  }
-}
-
-strong {
-  color: $purple;
-  &.colored {
-    color: white
-  }
-}
-
-.animated-background {
-  background: linear-gradient(270deg, $red, $purple);
-  background-size: 400% 400%;
-
-  -webkit-animation: background-animation 15s ease infinite;
-  -moz-animation: background-animation 15s ease infinite;
-  animation: background-animation 15s ease infinite;
-}
-
-.ace_editor {
-  width: 1000px;
-  margin: auto;
-  height: 570px;
-  border-radius: 20px;
-  font-size: 18px !important;
-  background-color: #0c2e4e;
-  box-shadow: rgba(26, 26, 67, 0.05) 1px 1px 5px 0px, rgba(50, 50, 93, 0.5) 39px 62.5px 125px -25px, rgba(0, 0, 0, 0.6) 23.4px 37.5px 75px -37.5px;
-
-  @media (max-device-width: 1200px) {
-    .ace_gutter {
-      display: none;
-    }
-    width: 600px;
-  }
-  @media (max-device-width: 800px) {
-    width: 320px;
-  }
-}
-
-@keyframes background-animation {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-
-.underlined-title {
-  display: inline-block;
-  text-align: center;
-  position: relative;
-  margin-bottom: 50px;
-  width: fit-content;
-  z-index: 1;
-  &:after {
-    display: block;
-    content: "";
-    width: 120%;
-    position: absolute;
-    top: calc(100% - 12px);
-    left: -10%;
-    height: 8px;
-    background-color: #00d4ff;
-    opacity: 0.7;
-    z-index: -1;
-  }
-}
-
-.title {
-  color: $black;
-  font-weight: bold;
-  font-size: 40px;
-  margin-bottom: 30px;
-  &.colored {
-    color: white;
-  }
-}
-
-.subtitle {
-  font-weight: bold;
-  font-size: 20px;
-  color: $purple;
-  margin-bottom: 10px;
-  &.colored {
-    color: $blue;
-  }
-}
-
-table {
-  width: 100%;
-  tr {
-    th {
-      color: white;
-      padding: 15px 0;
-    }
-    td {
-      padding: 10px 0;
-      color: $darkgray;
-    }
-    th, td {
-      border-bottom: 1px solid $darkpurple;
-    }
-  }
-}
