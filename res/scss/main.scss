@@ -85,6 +85,7 @@ body {
         img {
           margin: 20px;
           width: 64px;
+          border-radius: 10px;
         }
         #card-text {
           margin-top: 20px;
@@ -245,13 +246,15 @@ body {
       }
     }
     footer {
+      @extend .animated-background;
       #footer-content {
         padding: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        span, a {
+        span, a, h4 {
+          color: white;
           text-align: center;
         }
       }

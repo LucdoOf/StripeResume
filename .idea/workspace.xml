@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12ded2a5-66e1-404c-b56a-376e4f8349eb" name="Default Changelist" comment="Wording">
+    <list default="true" id="12ded2a5-66e1-404c-b56a-376e4f8349eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/scss/.sass-cache/9eb8d404f7814afa0bb0b46275dc466de745b378/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/res/scss/.sass-cache/9eb8d404f7814afa0bb0b46275dc466de745b378/main.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/res/scss/main.scss" afterDir="false" />
     </list>
@@ -61,7 +62,8 @@
       <workItem from="1600327349220" duration="5632000" />
       <workItem from="1600335113895" duration="15333000" />
       <workItem from="1600359621860" duration="990000" />
-      <workItem from="1600361288540" duration="265000" />
+      <workItem from="1600361288540" duration="392000" />
+      <workItem from="1600372465382" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1600359757867</created>
@@ -70,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600359757867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Wording">
+      <created>1600361557537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600361557537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,10 +95,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="687" y="345" width="608" height="416" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600332846646" />
-    <state x="495" y="63" width="991" height="980" key="CommitChangelistDialog2" timestamp="1600361492662">
+    <state x="495" y="63" width="991" height="980" key="CommitChangelistDialog2" timestamp="1600361557456">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="495" y="63" width="991" height="980" key="CommitChangelistDialog2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600361492662" />
+    <state x="495" y="63" width="991" height="980" key="CommitChangelistDialog2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600361557456" />
     <state x="779" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600360610146">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -98,10 +107,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600359740387" />
-    <state x="591" y="285" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1600359764820">
+    <state x="591" y="285" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1600361558686">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="285" width="800" height="536" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600359764820" />
+    <state x="591" y="285" width="800" height="536" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600361558686" />
     <state x="660" y="254" key="run.anything.popup" timestamp="1600333680256">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
