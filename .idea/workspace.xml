@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12ded2a5-66e1-404c-b56a-376e4f8349eb" name="Default Changelist" comment="Wording">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/res/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home-skills.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home-skills.php" afterDir="false" />
+    <list default="true" id="12ded2a5-66e1-404c-b56a-376e4f8349eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/views/home-editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home-editor.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
       <workItem from="1600359621860" duration="990000" />
       <workItem from="1600361288540" duration="392000" />
       <workItem from="1600372465382" duration="9571000" />
-      <workItem from="1600442055253" duration="579000" />
+      <workItem from="1600442055253" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1600359757867</created>
@@ -146,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600422714305</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Final version">
+      <created>1600442641524</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600442641524</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,17 +161,18 @@
     <MESSAGE value="Php clean up" />
     <MESSAGE value="Editor cleaning up" />
     <MESSAGE value="Wording" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wording" />
+    <MESSAGE value="Final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="687" y="345" width="608" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600377334453">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="687" y="345" width="608" height="416" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600377334453" />
-    <state x="495" y="63" width="991" height="980" key="CommitChangelistDialog2" timestamp="1600442607377">
+    <state x="495" y="63" width="991" height="980" key="CommitChangelistDialog2" timestamp="1600442641384">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="495" y="63" width="991" height="980" key="CommitChangelistDialog2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600442607377" />
+    <state x="495" y="63" width="991" height="980" key="CommitChangelistDialog2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600442641384" />
     <state x="779" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600360610146">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -182,10 +185,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600359740387" />
-    <state x="591" y="285" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1600422715283">
+    <state x="591" y="285" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1600442643195">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="285" width="800" height="536" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600422715283" />
+    <state x="591" y="285" width="800" height="536" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600442643195" />
     <state x="688" y="276" width="616" height="554" key="find.popup" timestamp="1600418762366">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -194,10 +197,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="660" y="254" key="run.anything.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600333680256" />
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1600442264929">
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1600442707352">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600442264929" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1600442707352" />
     <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1600335306136" />
     <state x="1269" y="259" width="1371" height="678" key="search.everywhere.popup/72.27.3768.1053@72.27.3768.1053" timestamp="1600353956574" />
   </component>

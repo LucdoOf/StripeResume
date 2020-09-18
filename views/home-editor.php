@@ -18,7 +18,7 @@
             place: "18000 Bourges France",
             description: "Web development specialized in insurances (first time using Stripe !)"
         },
-        auto_entrepreneur: {
+        freelancer: {
             duration: "Since March 2020",
             business: "Agile-Web.net",
             place: "37100 Tours France",
