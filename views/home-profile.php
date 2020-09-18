@@ -10,7 +10,7 @@
         In fact, <strong>I work with Stripe tools for about 2 years.</strong> I implemented Stripe billing, Stripe invoices, Stripe payments with payments intents or Stripe payment
         links.
         It has always been an evidence to use Stripe in my payment processes, and I always enjoyed using it.
-        <br/>Also, the stripe's front website and the stripe's dashboard have inspired me a lot in terms of UI and UX for my personal and professional projects.
+        <br/>Last but not least, the stripe's front website and the stripe's dashboard have inspired me a lot in terms of UI and UX for my personal and professional projects.
         That's why <strong>It would be for me an honor and a pleasure</strong> to work for Stripe and to contribute to making payments a lot easier across the world.
     </p>
 </section>
