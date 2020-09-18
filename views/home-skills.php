@@ -9,11 +9,11 @@
             </div>
             <div class="hobby">
                 <div class="hobby-top"><img src="res/images/diamond.svg" alt="geology"/>Geology</div>
-                <div class="hobby-description">I have been collecting gems and minerals for a long time now !</div>
+                <div class="hobby-description">I have been collecting gems and minerals for a long time now</div>
             </div>
             <div class="hobby">
                 <div class="hobby-top"><img src="res/images/gym.svg" alt="sports"/>Sports (swimming, musculation)</div>
-                <div class="hobby-description">I go to the gym 3 times a week and i try to keep swimming on my free time</div>
+                <div class="hobby-description">I go to the gym 3 times a week and I try to keep swimming on my free time</div>
             </div>
             <div class="hobby">
                 <div class="hobby-top"><img src="res/images/console.svg" alt="video games"/>Creating video games</div>
@@ -22,42 +22,47 @@
         </div>
         <div id="fake-invoice">
             <h4 id="invoice-title">Invoice #0872</h4>
-            <h5 id="invoice-subtitle">Billing period from March 15th, 2020 to April 14th, 2020</h5>
+            <h5 id="invoice-subtitle">Billing period from May, 2021 to August, 2021</h5>
             <table>
                 <tr>
-                    <th>Langage</th>
+                    <th>Domain</th>
                     <th>Experience</th>
-                    <th>Rating (/5)</th>
+                    <th>Rating</th>
                 </tr>
                 <tr>
                     <td>PHP</td>
                     <td>3 years</td>
-                    <td>5</td>
+                    <td><div class="rate-bar animated-background col-12"></td>
                 </tr>
                 <tr>
                     <td>XML/HTML</td>
                     <td>3 years</td>
-                    <td>5</td>
+                    <td><div class="rate-bar animated-background col-12"></td>
+                </tr>
+                <tr>
+                    <td>HTTP/Rest</td>
+                    <td>3 years</td>
+                    <td><div class="rate-bar animated-background col-12"></td>
                 </tr>
                 <tr>
                     <td>Javascript</td>
                     <td>3 years</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>Java</td>
-                    <td>6 years</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>VueJS</td>
-                    <td>1 year</td>
-                    <td>3</td>
+                    <td><div class="rate-bar animated-background col-9"></td>
                 </tr>
                 <tr>
                     <td>Python</td>
                     <td>4 years</td>
-                    <td>4</td>
+                    <td><div class="rate-bar animated-background col-9"></td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>6 years</td>
+                    <td><div class="rate-bar animated-background col-9"></td>
+                </tr>
+                <tr>
+                    <td>VueJS</td>
+                    <td>1 year</td>
+                    <td><div class="rate-bar animated-background col-6"></td>
                 </tr>
             </table>
         </div>
