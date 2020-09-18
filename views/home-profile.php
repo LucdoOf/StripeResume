@@ -2,7 +2,7 @@
     <h3 class="subtitle">Why me ?</h3>
     <h2 class="title">A qualified and motivated future engineer</h2>
     <p class="pl-3 mb-0">
-        Actually in 3rd year of my engineer diploma, I'm looking <strong>for a 3-months internship for the 2021 summer.</strong>
+        Currently in 3rd year of my engineer diploma, I'm looking <strong>for a 3-months internship for the 2021 summer.</strong>
         I have always been passionate by computer sciences, and <strong>I develop for more than 6 years now.</strong> For about 3 years, I work every summer
         for web companies to help them during employees breaks. <strong>I mainly work on PHP back-end</strong>, which is what I prefer, but front-end is a part of my skills as well.
         Moreover, I recently started my own business where I realize e-commerce websites for professionals.
